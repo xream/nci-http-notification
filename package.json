@@ -1,0 +1,22 @@
+{
+  "name": "nci-http-notification",
+  "version": "1.0.0",
+  "description": "HTTP notification plugin for [nci](https://github.com/node-ci/nci)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xream/nci-http-notification.git"
+  },
+  "author": "",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/xream/nci-http-notification/issues"
+  },
+  "homepage": "https://github.com/xream/nci-http-notification#readme",
+  "dependencies": {
+    "axios": "^0.16.1"
+  }
+}
