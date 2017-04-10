@@ -16,7 +16,7 @@ exports.register = function(app) {
   }
 
   Transport.prototype.send = async function(params, callback) {
-    const conf = params.build.project.notify.to.http(params)
+    const conf = params.build.project.notify.to.http(params, app)
     try {
       await axios(Object.assign({}, this.conf, conf))
       callback()
