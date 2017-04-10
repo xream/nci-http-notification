@@ -17,8 +17,9 @@ notify: {
 notify: {
   on: [ 'done', 'error', 'change' ],
   to: {
-    http: (params) => ({
-      data: {}
+    http: (params, app) => ({
+      url: '',
+      data: {},
     })
   }
 },
