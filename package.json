@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/xream/nci-http-notification#readme",
   "dependencies": {
-    "axios": "^0.16.1"
+    "axios": "^0.18.0"
   }
 }
